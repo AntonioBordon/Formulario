@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Compras</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href='styles.css'>
+    <link rel="stylesheet" href='reset.css'>
+</head>
+
+<body>
+    <div>
+        <div>
+            <header>
+                <hgroup class="top_page">
+                    <img class="logo" src="https://imagensemoldes.com.br/wp-content/uploads/2020/09/Imagem-Nike-Logo-PNG-1024x1024.png">
+                    <div>
+                        <a class="pages" href="./compras.html">Compras</a>
+                        <a class="pages" href="./fornecedores.html">Fornecedores</a>
+                        <a class="pages" href="./categorias.html">Categorias</a>
+                        <a class="pages" href="./produtos.html">Produtos</a>
+                        <a class="pages" href="./vendas.html">Vendas</a>
+                        <a class="pages" href="./vendedores.html">Vendedores</a>
+                    </div>
+                </hgroup>
+            </header>
+        </div>
+
+        <div>
+            <h3 class="titulo">Compra</h3>
+            <form action="" method="get">
+                <p>Informe o Fornecedor:</p>
+                <input type="text" id="fornecedor">
+                <input type="button" value="Buscar" id="enviar_formulario">
+            </form>
+
+            <form action="" method="get">
+                <p>Informe a Categoria: </p>
+                <input type="text" id="categorias">
+                <input type="button" value="Buscar" id="enviar_formulario">
+            </form>
+
+            <form action="" method="get">
+                <p>Infome o Produto: </p>
+                <input type="text" id="fornecedor">
+                <input type="button" value="Buscar" id="enviar_formulario">
+            </form>
+
+            
+
+            <form action="#" method="post" id="compras">
+
+                <p class="descricao">Data da Compra: </p>
+                <input type="date" id="data"></input>
+
+                <p class="descricao">Valor da Compra: </p>
+                <input  type="number" id="valorTotal"></input>
+
+                <p class="descricao">Quantidade: </p>
+                <input  type="number" id="quantidade"></input>
+
+                <!--Local para ativar e desativar fornecedor-->
+                
+                <input type="button" value="Cadastrar" id="enviar_formulario">
+            </form>
+        </div>
+
+        <div>
+            <footer>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
