@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Compras</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href='../styles/padrao.css'>
+</head>
+
+<body>
+    <div>
+        <div>
+            <header>
+                <hgroup class="top_page">
+                    <img class="logo" src="https://static.nike.com.br/v9-95-0/images/brands/logo.svg">
+                    <div>
+                        <a class="pages" href="./compras.html">Compras</a>
+                        <a class="pages" href="./fornecedores.html">Fornecedores</a>
+                        <a class="pages" href="./categorias.html">Categorias</a>
+                        <a class="pages" href="./produtos.html">Produtos</a>
+                        <a class="pages" href="./vendas.html">Vendas</a>
+                        <a class="pages" href="./vendedores.html">Vendedores</a>
+                    </div>
+                </hgroup>
+            </header>
+        </div>
+
+        <div>
+            <p class="titulo">Compras</p>
+
+            <form action="" method="get" class="form">
+                <p class="descricao">Informe o Fornecedor:</p>
+                <input type="text" id="fornecedor" class="dados" placeholder="Fornecedor">
+                <input type="button" value="Buscar" id="enviar_formulario">
+            </form>
+
+            <form action="" method="get" class="form">
+                <p class="descricao">Informe a Categoria: </p>
+                <input type="text" id="categorias" class="dados" placeholder="Categoria">
+                <input type="button" value="Buscar" id="enviar_formulario">
+            </form>
+
+            <form action="" method="get" class="form">
+                <p class="descricao">Infome o Produto: </p>
+                <input type="text" id="produtos" class="dados" placeholder="Produto">
+                <input type="button" value="Buscar" id="enviar_formulario">
+            </form>
+
+            <div class="divisoria"><p>Dados da Compra</p></div>
+            
+
+            <form action="#" method="post" id="compras" class=form-dados>
+
+                <p class="descricao">Data da Compra: </p>
+                <input type="date" id="data" class="dados"></input>
+
+                <p class="descricao">Valor da Compra: </p>
+                <input  type="number" id="valorTotal" class="dados" placeholder='R$ 00,00'></input>
+
+                <p class="descricao">Quantidade: </p>
+                <input  type="number" id="quantidade" class="dados" placeholder="XXXX"></input>
+
+                <!--Local para ativar e desativar fornecedor-->
+                
+                <input type="button" value="Cadastrar" id="enviar_formulario">
+            </form>
+        </div>
+
+        <div>
+            <footer class="footer">
+                <p>© 2022 Nike. Todos os direitos reservados. Fisia Comércio de Produtos Esportivos Ltda - CNPJ: 59.546.515/0045-55 Rodovia Fernão Dias, S/N Km 947.5</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

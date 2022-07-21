@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Fornecedores</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href='../styles/padrao.css'>
+</head>
+
+<body>
+    <div>
+        <div>
+            <header>
+                <hgroup class="top_page">
+                    <img class="logo" src="https://static.nike.com.br/v9-95-0/images/brands/logo.svg">
+                    <div>
+                        <a class="pages" href="./compras.html">Compras</a>
+                        <a class="pages" href="./fornecedores.html">Fornecedores</a>
+                        <a class="pages" href="./categorias.html">Categorias</a>
+                        <a class="pages" href="./produtos.html">Produtos</a>
+                        <a class="pages" href="./vendas.html">Vendas</a>
+                        <a class="pages" href="./vendedores.html">Vendedores</a>
+                    </div>
+                </hgroup>
+            </header>
+        </div>
+
+        <div>
+            <p class="titulo">Cadastrar Fornecedores</p>
+            <form action="#" method="post" id="fornecedores" class=form-dados>
+
+                <p class="descricao">Razão Social: </p>
+                <input type="text" id="razaoSocial" class="dados" placeholder="Nome da empresa"></input>
+
+                <p class="descricao">CPNJ: </p>
+                <input  type="number" id="cnpj" class="dados" placeholder="00.000.000/0000-00"></input>
+
+                <p class="descricao">Telefone: </p>
+                <input  type="number" id="telefone" class="dados" placeholder="(00) 0 0000-0000"></input>
+
+                <p class="descricao">Endereço: </p>
+                <input  type="text" id="endereco" class="dados" placeholder="Rua. xxxx"></input>
+
+                <p class="descricao">Contato: </p>
+                <input  type="email" id="email" class="dados" placeholder="exemplo@exemplo.com"></input>
+
+                <!--Local para ativar e desativar fornecedor-->
+                
+                <input type="button" value="Cadastrar" id="enviar_formulario">
+            </form>
+        </div>
+
+        <div>
+            <footer class="footer">
+                <p>© 2022 Nike. Todos os direitos reservados. Fisia Comércio de Produtos Esportivos Ltda - CNPJ: 59.546.515/0045-55 Rodovia Fernão Dias, S/N Km 947.5</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

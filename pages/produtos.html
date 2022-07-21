@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Produtos</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href='../styles/padrao.css'>
+</head>
+
+<body>
+    <div>
+        <div>
+            <header>
+                <hgroup class="top_page">
+                    <img class="logo" src="https://static.nike.com.br/v9-95-0/images/brands/logo.svg">
+                    <div>
+                        <a class="pages" href="./compras.html">Compras</a>
+                        <a class="pages" href="./fornecedores.html">Fornecedores</a>
+                        <a class="pages" href="./categorias.html">Categorias</a>
+                        <a class="pages" href="./produtos.html">Produtos</a>
+                        <a class="pages" href="./vendas.html">Vendas</a>
+                        <a class="pages" href="./vendedores.html">Vendedores</a>
+                    </div>
+                </hgroup>
+            </header>
+        </div>
+
+        <div>
+            <p class="titulo">Dados do Fonecedor e da Categoria do produto</p>
+
+            <form action="" method="get" class="form">
+                <p>Informe o Fornecedor: </p>
+                <input type="text" id="Fornecedor" class="dados" placeholder="Fornecedor">
+                <input type="button" value="Buscar" id="enviar_formulario">
+            </form>
+            <form action="" method="get" class="form"> 
+                <p>Informe a Categoria</p>
+                <input type="text" id="categoria" class="dados" placeholder="Categoria">
+                <input type="button" value="Buscar" id="enviar_formulario">
+            </form>
+
+            <div class="divisoria"><p>Cadastrar Produtos</p></div>
+
+            <form action="#" method="post" id="produtos" class=form-dados>
+
+                <p class="descricao">Nome do Produto: </p>
+                <input type="text" id="nomeProduto" class="dados" placeholder="Produto"></input>
+
+                <p class="descricao">Descrição do Produto: </p>
+                <input  type="text" id="descricaoProduto" class="dados" placeholder="Descrição"></input>
+
+                <p class="descricao">Valor do Produto: </p>
+                <input  type="number" id="valorUnitario" class="dados" placeholder="R$ 00,00"></input>
+                
+                <p class="descricao">Quantidade do Produto: </p>
+                <input  type="number" id="quantidade" class="dados" placeholder="XXXX"></input>
+                
+                <p class="descricao">Quantidade minima de Produtos: </p>
+                <input  type="number" id="quantidadeMinima" class="dados" placeholder="XXXX"></input>
+
+                <!--Local para ativar e desativar Categoria-->
+                
+                <input type="button" value="Cadastrar" id="enviar_formulario">
+            </form>
+        </div>
+
+        <div>
+            <footer class="footer">
+                <p>© 2022 Nike. Todos os direitos reservados. Fisia Comércio de Produtos Esportivos Ltda - CNPJ: 59.546.515/0045-55 Rodovia Fernão Dias, S/N Km 947.5</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

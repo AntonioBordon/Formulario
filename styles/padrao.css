@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top_page{
+    margin-right: 15px;
+    margin-left: 15px;
+    min-width: 1000px;
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pages {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin-right: 30px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.pages:hover {
+    border-bottom: 3px solid black;
+}
+
+.logo{
+    padding-left: 2em;
+    padding: 25px;
+    width: 50px;
+}
+
+footer{
+    font-size: 10px;
+    margin-top: 5em;
+    padding-top: 3em;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-top: 3px solid black;
+    color: rgba(0, 0, 0, 0.408);
+}
+
+.titulo{
+    font-weight: bold;
+    padding-left: 3em;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+}
+
+.form{
+    text-align: center;
+}
+
+.descricao{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.dados{
+    padding: 15px;
+    background-color: #f7f7f7;
+    width: 300px;
+    border: transparent;
+    border-radius: 15px;
+    border: transparent;
+}
+
+.dados:hover{
+    background-color: #d1d0d0;
+}
+
+.divisoria{
+    font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 5px;
+    border-bottom: 3px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.form-dados{
+    margin-left: 3em;
+}
+
+#enviar_formulario{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: transparent;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.847);
+    background-color: black;
+    cursor: pointer;
+}
+
+
